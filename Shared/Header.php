@@ -1,7 +1,7 @@
-<?php include "Shared/connection.php" ?>
 <header>
     <div class="row" id="bannerSec">
-        <nav class="navbar navbar-inverse navbar-static-top">
+        <div style="height: 50px"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse"
@@ -32,25 +32,16 @@
                     <!--Right Side-->
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">FR</a></li>
-                        <?php
-                        if (!(func::checkLogin($con))) {
-                            echo "<li><a href='Login_Register.php'><span class='glyphicon glyphicon-user'></span> Sign Up / Login</a></li>";
-                        } else {
-                            echo "<li class=\"dropdown\">
-                            <a class=\"dropdown-toggle\" data-toggle=\"dropdown\" href=\"#\" id=\"navButtons\">
-                                View Account
-                                <span class=\"caret\"></span></a>
-                            <ul class=\"dropdown-menu\">
-                                <li><a href=\"Account_View.php\">View Info</a></li>
-                                <li><a href=\"Processes/Logout.php\">Logout</a></li>
-                            </ul>
-                        </li>";
-                        }
-                        ?>
+                        <li><a href='Login_Register.php'><span class='glyphicon glyphicon-user'></span>Omnivox Login</a>
+                        </li>
                         <li><a style="margin-right: 30px" href="Enroll.php">ENROLL</a></li>
                     </ul>
+
                 </div>
             </div>
         </nav>
+        <div style="text-align: center; margin: 50px;">
+            <h1>Computer Science Legacy to Mobile</h1>
+        </div>
     </div>
 </header>
