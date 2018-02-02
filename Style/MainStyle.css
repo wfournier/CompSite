@@ -1,3 +1,16 @@
+#logo{
+    height: 50%;
+    padding: auto;
+    position: static;
+    left:0;
+    float: left;
+    margin-right: 10%;
+}
+
+#title{
+    
+}
+
 #footer {
     text-align: center;
     background-color: transparent;
@@ -41,21 +54,21 @@ html {
 
 #requirements {
     background-image: url("../Resources/carousel1.jpg");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #classes {
     background-image: url("../Resources/carousel2.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #about {
     background-image: url("../Resources/carousel3.png");
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
