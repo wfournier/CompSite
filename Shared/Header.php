@@ -17,7 +17,6 @@
                 <div class="collapse navbar-collapse navBarText" id="myNavbar">
                     <ul class="nav navbar-nav">
                         <li><a href="Index.php">Home</a></li>
-                        <li><a href="About.php">About</a></li>
                         <li><a href="TheProgram.php">The Program</a></li>
 <!--                        <li class="dropdown">-->
 <!--                            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="navButtons">-->

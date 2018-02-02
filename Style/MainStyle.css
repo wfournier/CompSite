@@ -1,14 +1,19 @@
-#logo{
+#logo {
     height: 50%;
     padding: auto;
     position: static;
-    left:0;
+    left: 0;
     float: left;
     margin-right: 10%;
 }
 
-#title{
-    
+.semester {
+    padding: 30px 0 30px 50px
+
+}
+
+#title {
+
 }
 
 #footer {
