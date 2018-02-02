@@ -26,25 +26,25 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" id="carousel">
                     <div class="item active" id="about">
-                        <a href="About.php">
+                        <a href="TheProgram.php#about1">
                             <div class="carousel-caption">
-                                <h3>About</h3>
+                                <h3>About The Programm</h3>
                             </div>
                         </a>
                     </div>
 
                     <div class="item" id="classes">
-                        <a href="Classes.php">
+                        <a href="TheProgram.php#semester1">
                             <div class="carousel-caption">
-                                <h3>Classes</h3>
+                                <h3>Courses</h3>
                             </div>
                         </a>
                     </div>
 
                     <div class="item" id="requirements">
-                        <a href="Requirements.php">
+                        <a href="TheProgram.php#skills">
                             <div class="carousel-caption">
-                                <h3>Requirements</h3>
+                                <h3>Requirements and Skills</h3>
                             </div>
                         </a>
                     </div>
@@ -71,66 +71,23 @@
         </div>
         <div class="row" style="padding: 30px 10px 20px 10px">
             <div class="col-xs-6" style="padding: 20px 50px 0 50px">
-                <div id="News" class="panel panel-primary">
-                    <div class="panel-body" style="max-height: 450px;overflow-y: scroll;">
-                        <h3>News</h3>
-                        <ul>
-                            <li>
-                                <p>Here the College can put different news with the date to inform people
-                                    about
-                                    ongoing
-                                    news</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                            <li>
-                                <p>They will be able to do this in many bullet point</p>
-                            </li>
-                        </ul>
-                    </div>
+                <div id="News">
+                    <h1>Students Comments</h1><br>
+                    <ul>
+
+                        <li>"These Guys Are GOOOD!"</li>
+                        <br><br>
+                        <li>"Very Futuristic Program! I am only waiting for cobol to get to the cloud so I can program
+                            at home."
+                        </li>
+                        <br><br>
+                        <li>"Programming with Wizards is the best. Especially in Java it makes my work go faster"</li>
+                        <br><br>
+                        <li>"Lab equipment are very fast and up to date and the Internet is among the fastest I have
+                            ever seen"
+                        </li>
+                    </ul>
+                    <img src="Resources/logo.jpg">
                 </div>
             </div>
             <div class="col-xs-6" style="padding: 20px 100px 0 100px">
