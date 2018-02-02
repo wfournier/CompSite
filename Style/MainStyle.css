@@ -7,12 +7,14 @@
     margin-right: 10%;
 }
 
-.semester {
-    padding: 30px 0 30px 50px
-
+.imgProg{
+    width: 300px;
+    height: auto;
 }
 
-
+.semester {
+    padding: 30px 0 30px 50px
+}
 
 #title {
 
@@ -43,7 +45,7 @@
 main {
     position: relative;
     min-height: 500px;
-    background-color: lightgrey;
+    background-color: white;
 }
 
 body {

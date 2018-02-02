@@ -5,7 +5,7 @@
     <title>Compsci Home</title>
 </head>
 <body>
-<main style="background-color: lightgray">
+<main>
     <style>
         .row {
             margin-right: 0;
@@ -17,7 +17,7 @@
     <div class="row">
         <div class="col-xs-2"></div>
         <div class="col-xs-2" style=" position:absolute; height: 100%; background-color: #000f29"></div>
-        <div class="col-xs-10">
+        <div class="col-xs-10" style="padding: 0">
             <div class="row">
                 <div style="padding: 20px 50px 20px 50px" id="about1">
                     <h1>About the Program</h1>
@@ -59,9 +59,8 @@
             </div>
             <div class="row">
 
-                <div class="row semester" id="semester1">
-                    <div class="col-xs-2">
-                    </div>
+                <div class="row semester" id="semester1" style="background-color: lightblue">
+
                     <div class="col-xs-10">
 
                         <h1>Semester 1</h1>
@@ -83,11 +82,13 @@
                                     <li>Web Interface Design</li>
                                 </ul>
                             </div>
+                            <div class="col-xs-3">
+                                <img class="imgProg" src="Resources/s1.jpg">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row semester" id="semester2">
-                    <div class="col-xs-2"></div>
                     <div class="col-xs-10">
                         <h1>Semester 2</h1>
                         <div class="row">
@@ -108,11 +109,13 @@
                                     <li>Configuring, Managing and Maintaining Computers</li>
                                 </ul>
                             </div>
+                            <div class="col-xs-3">
+                                <img class="imgProg" src="Resources/s2.jpeg">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row semester" id="semester3">
-                    <div class="col-xs-2"></div>
+                <div class="row semester" id="semester3" style="background-color: lightblue">
                     <div class="col-xs-10">
                         <h1>Semester 3</h1>
                         <div class="row">
@@ -132,11 +135,13 @@
                                     <li>Game Development</li>
                                 </ul>
                             </div>
+                            <div class="col-xs-3">
+                                <img class="imgProg" src="Resources/s3.jpg">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row semester" id="semester4">
-                    <div class="col-xs-2"></div>
                     <div class="col-xs-10">
                         <h1>Semester 4</h1>
                         <div class="row">
@@ -156,12 +161,13 @@
                                     <li>Web Programming</li>
                                 </ul>
                             </div>
+                            <div class="col-xs-3">
+                                <img class="imgProg" src="Resources/s4.jpeg">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="row semester" id="semester5">
-                    <div class="col-xs-2">
-                    </div>
+                <div class="row semester" id="semester5" style="background-color: lightblue">
                     <div class="col-xs-10">
                         <h1>Semester 5</h1>
                         <div class="row">
@@ -179,11 +185,14 @@
                                     <li>Career Planning</li>
                                 </ul>
                             </div>
+                            <div class="col-xs-3">
+                                <img class="imgProg" src="Resources/s5.jpg">
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row semester" id="semester6">
-                    <div class="col-xs-2"></div>
+
                     <div class="col-xs-10">
                         <h1>Semester 6</h1>
                         <div class="row">
@@ -196,12 +205,13 @@
                             </div>
                             <div class="col-xs-5">
                                 <h3>Externship (Stage)</h3>
+                                <p>Champlain offers a diversity of stage for your last semester. Get some real workplace experience!</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row semester" id="skills">
-                    <div class="col-xs-2"></div>
+                <div class="row semester" id="skills" style="background-color: lightblue">
+
                     <div class="col-xs-10">
                         <h1>
                             The Program Provide You
@@ -227,6 +237,26 @@
                                     <li>web development</li>
                                 </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row semester" id="requirement" style="background-color: white">
+
+                    <div class="col-xs-10">
+                        <h1>
+                            Requirements
+                        </h1>
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <ul>
+                                    <li>Be curious</li>
+                                    <li>Like Technologies</li>
+                                    <li>Problem Solving Skills</li>
+                                    <li>Creating and Designing</li>
+                                    <li>*Advanced Math high School</li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>

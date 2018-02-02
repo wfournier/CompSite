@@ -6,7 +6,7 @@
 </head>
 <body>
 <?php include "Shared/Header.php"; ?>
-<main style="background-color: lightgray">
+<main>
     <style>
         .row {
             margin-right: 0;
