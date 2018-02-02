@@ -87,7 +87,7 @@
                             ever seen"
                         </li>
                     </ul>
-                    <img src="Resources/logo.jpg">
+                    <img src="Resources/logo.gif">
                 </div>
             </div>
             <div class="col-xs-6" style="padding: 20px 100px 0 100px">
